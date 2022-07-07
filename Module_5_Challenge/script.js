@@ -1,6 +1,6 @@
 let hourlyTasks = document.querySelector("tasks");
 let saveEntries = document.querySelector("#saveBtn");
-let saveTimeEntries = localStorage.getItem("saveTimeEntries");
+let saveTimeEntries = localStorage.getItem("saveBtn");
 const options = {
   weekday: "long",
   year: "numeric",
